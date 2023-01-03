@@ -1,0 +1,165 @@
+
+
+body {
+    /* background-color: rgb(207, 207, 207); */
+    background-size: cover;
+    font-family: "Century Gothic" ,Arial, Helvetica, sans-serif;
+    height: 1000px;
+}
+
+.navBar {
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, .2);
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {   
+    width: 85%;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+}
+
+header {
+    margin-top: 40px;
+}
+
+.profile {
+    /* background-color: red; */
+    margin: 80px 0px 40px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.profilePhoto {
+    width: 150px;
+    height: 150px;
+    background-image: url(img/2vor6r7oks631.webp);
+    background-size: cover;
+    /* background-color: red; */
+    background-position: 5px 0px;
+
+    margin-bottom: 10px;
+
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.skills {
+    margin: 120px auto;
+    width: 75%;
+    /* background-color: red; */
+    padding: 5px;
+    text-align: center;
+}
+
+.skills div {
+    height: 3px;
+    background-color: black;
+    margin: 0px auto 10px 0px ;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+
+.skills ul li img {
+    width: 120px;
+}
+
+
+/* PROJECTS */
+.projects {
+    /* background-color: red; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outer {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    /* border: 5px solid black; */
+    border-radius: 5%;
+    
+    padding: 0px;
+    margin: 10px 10px;
+
+    transition: .6s;
+}
+
+.outer:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+
+}
+
+.inner {
+    width: 210px;
+    height: 210px;
+    background-size: cover;
+}
+
+
+.CRUD {
+    background-image: url(img/543.png);
+    background-color: red;
+    background-position: -80px 0px;
+}
+
+.CRUD-out {
+    position: relative;
+}
+.REAL-PROJECT1-out {
+    position: relative;
+}
+
+.REAL-PROJECT2-out {
+    position: relative;
+}
+
+
+.API {
+    background-image: url(img/Volume_106.webp);
+}
+
+.API-out {
+    position: relative;
+    
+}
+
+.REAL-PROJECT1 {
+    background-image: url(img/JJL_Chapter_56.webp);
+} 
+
+.REAL-PROJECT2 {
+    background-image: url(img/Volume_106.webp);
+} 
